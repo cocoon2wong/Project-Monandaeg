@@ -1,0 +1,2 @@
+model_checkpoint_path: "EV_3dbb_Haar_R2_epoch158.tf"
+all_model_checkpoint_paths: "EV_3dbb_Haar_R2_epoch158.tf"
