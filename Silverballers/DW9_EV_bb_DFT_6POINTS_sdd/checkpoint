@@ -1,0 +1,2 @@
+model_checkpoint_path: "FFT_BB_6POINTS__epoch153.tf"
+all_model_checkpoint_paths: "FFT_BB_6POINTS__epoch153.tf"
