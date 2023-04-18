@@ -1,0 +1,2 @@
+model_checkpoint_path: "V_bb_DFT2D_R2__epoch157.tf"
+all_model_checkpoint_paths: "V_bb_DFT2D_R2__epoch157.tf"
