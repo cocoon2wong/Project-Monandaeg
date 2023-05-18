@@ -1,0 +1,2 @@
+model_checkpoint_path: "_haar_8e-5_avgkey_k1__epoch240.tf"
+all_model_checkpoint_paths: "_haar_8e-5_avgkey_k1__epoch240.tf"
