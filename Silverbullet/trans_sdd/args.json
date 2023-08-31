@@ -22,8 +22,6 @@
 "pmove":-1,
 "pred_frames":12,
 "preprocess":"100",
-"protate":0.0,
-"pscale":"autoref",
 "save_base_dir":"./logs",
 "split":"sdd",
 "start_test_percent":0.0,

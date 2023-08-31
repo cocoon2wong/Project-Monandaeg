@@ -24,12 +24,14 @@
 "pmove":-1,
 "pred_frames":12,
 "preprocess":"100",
-"protate":0.0,
-"pscale":"autoref",
 "rel_speed":0,
 "save_base_dir":"./logs",
 "split":"sdd",
 "start_test_percent":0.0,
 "step":1.0,
 "test_step":1,
-"use_seg_maps":0}
+"use_direction":1,
+"use_distance":1,
+"use_move_direction":0,
+"use_seg_maps":0,
+"use_velocity":1}
