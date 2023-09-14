@@ -1,0 +1,2 @@
+model_checkpoint_path: "_P1__epoch108.tf"
+all_model_checkpoint_paths: "_P1__epoch108.tf"
