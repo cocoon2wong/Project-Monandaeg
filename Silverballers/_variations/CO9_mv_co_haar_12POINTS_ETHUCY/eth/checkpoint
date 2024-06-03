@@ -1,2 +1,0 @@
-model_checkpoint_path: "mv_haar_12POINTS_retrain_epoch160.tf"
-all_model_checkpoint_paths: "mv_haar_12POINTS_retrain_epoch160.tf"
