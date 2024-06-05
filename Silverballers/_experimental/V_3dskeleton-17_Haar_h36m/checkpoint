@@ -1,2 +1,0 @@
-model_checkpoint_path: "V_R2_Haar_512__epoch72.tf"
-all_model_checkpoint_paths: "V_R2_Haar_512__epoch72.tf"

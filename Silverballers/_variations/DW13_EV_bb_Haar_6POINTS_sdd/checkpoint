@@ -1,2 +1,0 @@
-model_checkpoint_path: "HAAR_BB_6POINTS__epoch142.tf"
-all_model_checkpoint_paths: "HAAR_BB_6POINTS__epoch142.tf"
