@@ -8,7 +8,7 @@
 "feature_dim":128,
 "input_pred_steps":"null",
 "interval":0.5,
-"log_dir":"./logs/20241011-192734_P8_haar_fixed_renuScenes_v1.0",
+"log_dir":"./logs/20241013-141103_P8_haar_fixed_renuScenes_v1.0",
 "loss_weights":"{}",
 "lr":0.0004,
 "max_agents":50,
@@ -29,6 +29,5 @@
 "T":"haar",
 "Tr":"haar",
 "compute_non_social_bias":1,
-"do_intervention":0,
 "interp":"speed",
 "partitions":8}
