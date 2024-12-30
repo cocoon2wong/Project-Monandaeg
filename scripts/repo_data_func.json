@@ -1,0 +1,23 @@
+[   
+    {
+        "display_name": "Resonance",
+        "desc": "Resonance: Learning to predict social-aware pedestrian trajectories as co-vibrations",
+        "user": "cocoon2wong",
+        "repo_name": "Project-Monandaeg",
+        "branch": "Re"
+    },
+    {
+        "display_name": "SocialCircle+",
+        "desc": "SocialCircle+: Learning the Angle-based Conditioned Interaction Representation for Pedestrian Trajectory Prediction",
+        "user": "cocoon2wong",
+        "repo_name": "Project-Monandaeg",
+        "branch": "SocialCirclePlus"
+    },
+    {
+        "display_name": "SocialCircle",
+        "desc": "SocialCircle: Learning the Angle-based Social Interaction Representation for Pedestrian Trajectory Prediction",
+        "user": "cocoon2wong",
+        "repo_name": "Project-Monandaeg",
+        "branch": "SocialCircle"
+    }
+]

@@ -1,7 +1,15 @@
+# project
+_site
+.sass-cache
+.vagrant
+
+# general
 .DS_Store
-__pycache__
-**/*.pyc
+Thumbs.db
+ehthumbs.db
 
-**/events.out.tfevent*
+Gemfile.lock
 
+beautiful-jekyll-theme-*.gem
 
+run.sh
