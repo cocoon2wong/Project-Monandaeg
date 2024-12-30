@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-03-28 09:14:00
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2024-12-30 10:49:34
+ * @LastEditTime: 2024-12-30 10:50:44
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -28,5 +28,5 @@ This is a pretty large repository, so please use `git clone` or `git pull` with 
 If you DO want to clone this branch, please use
 
 ```
-git clone -b Rev https://github.com/cocoon2wong/Project-Monandaeg.git
+git clone --branch Rev --depth 1 https://github.com/cocoon2wong/Project-Monandaeg.git
 ```
