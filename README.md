@@ -1,11 +1,10 @@
 <!--
  * @Author: Conghao Wong
- * @Date: 2023-03-28 09:14:00
+ * @Date: 2024-12-30 10:04:35
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2024-12-30 10:50:44
- * @Description: file content
+ * @LastEditTime: 2025-01-08 09:50:36
  * @Github: https://cocoon2wong.github.io
- * Copyright 2023 Conghao Wong, All Rights Reserved.
+ * Copyright 2025 Conghao Wong, All Rights Reserved.
 -->
 
 # Reverberation Weights
