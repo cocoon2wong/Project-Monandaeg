@@ -12,7 +12,7 @@
 "loss_weights":"{}",
 "lr":0.0001,
 "max_agents":50,
-"model":"rev3",
+"model":"rev",
 "model_name":"reborn",
 "model_type":"agent-based",
 "noise_depth":16,
@@ -31,4 +31,5 @@
 "compute_re_bias":1,
 "compute_self_bias":1,
 "full_steps":1,
+"lite":0,
 "partitions":8}
