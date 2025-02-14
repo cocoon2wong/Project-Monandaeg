@@ -30,6 +30,6 @@
 "compute_linear_base":1,
 "compute_re_bias":1,
 "compute_self_bias":1,
-"full_steps":1,
+"encode_agent_types":0,
 "lite":0,
 "partitions":8}
