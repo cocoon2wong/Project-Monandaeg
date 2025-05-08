@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2024-12-30 10:04:35
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2025-05-08 09:48:28
+ * @LastEditTime: 2025-05-08 10:05:58
  * @Github: https://cocoon2wong.github.io
  * Copyright 2025 Conghao Wong, All Rights Reserved.
 -->
@@ -32,3 +32,20 @@ If you DO want to clone this branch, please use
 ```bash
 git clone --branch Rev_ablation --depth 1 https://github.com/cocoon2wong/Project-Monandaeg.git
 ```
+
+## Ablation Variations
+
+IDs (from `a1` to `a10`) of all these variations indicate different ablation settings:
+
+| ID | Reverberation Transform | Generating Kernel `G` | Reverberation Kernel `R` | Linear Prediction | Non-Interaction Latency | Social Latency |
+| --- | --- | --- | --- | --- | --- | --- |
+| a1 | ❌ | - | - | - | - | min* |
+| a2 | ✅ | ❌ | ✅ | - | - | min* |
+| a3 | ✅ | ✅ | ❌ | - | - | min* |
+| a4 | ✅ | ✅ | ✅ | - | - | min* |
+| a5 | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| a6 | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
+| a7 | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ |
+| a8 | ❌ | - | - | ✅ | ✅ | ✅ |
+| a9 | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| a10 | ✅ | ✅ | ❌ | ✅ | ✅ | ✅ |
