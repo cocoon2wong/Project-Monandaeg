@@ -2,6 +2,6 @@
 __pycache__
 **/*.pyc
 
-**/events.out.tfevent*
+# **/events.out.tfevent*
 
 
