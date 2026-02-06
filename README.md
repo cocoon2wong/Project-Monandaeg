@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-03-28 09:14:00
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2026-02-04 09:44:16
+ * @LastEditTime: 2026-02-06 09:35:14
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -49,7 +49,7 @@ These results could be obtained if all other codes were properly set.
 | hotel     | 0.1144149973988533 (meter)    | 0.1496908813714981 (meter) |
 | univ      | 0.2308891266584396 (meter)    | 0.4013743400573733 (meter) |
 | zara1     | 0.1692499667406082 (meter)    | 0.2857049405574795 (meter) |
-| zara2     | 0.1260999292135238 (meter)    | 0.2219032943248742 (meter) |
+| zara2     | 0.1260605007410049 (meter)    | 0.2178858816623687 (meter) |
 | SDD       | 6.1143870353698731 (pixel)    | 9.8406696319580081 (pixel) |
 | NBA@2.0s  | 2.0089097023010254 (foot)     | 2.4949486255645752 (foot) |
 |           | 0.6123156772613526 (meter)    | 0.7604603410720825 (meter) |
