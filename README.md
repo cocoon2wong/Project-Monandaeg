@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-03-28 09:14:00
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2026-02-06 09:35:14
+ * @LastEditTime: 2026-02-06 14:55:17
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -38,6 +38,16 @@ If you DO want to clone this branch, please use
 git clone --branch Enc --depth 1 https://github.com/cocoon2wong/Project-Monandaeg.git
 ```
 
+## Reproduce
+
+You can use the following command to reproduce our results, with the same training configurations as we used (take weight `enczara1` as an example):
+
+```bash
+python main.py --restore_args ${PATH_TO_WEIGHTS}/enczara1
+```
+
+Note that we do not have a fixed random seed, as this does not allow the network to show better random capability. This also leads to potentially different results for each training. You can train multiple times to achieve our results.
+
 ## Results
 
 These results could be obtained if all other codes were properly set.
@@ -45,7 +55,7 @@ These results could be obtained if all other codes were properly set.
 
 | Dataset | ADE | FDE |
 | --- | --- | --- |
-| eth       |
+| eth       | 0.2323642224073412 (meter)    | 0.3576027452945709 (meter) |
 | hotel     | 0.1144149973988533 (meter)    | 0.1496908813714981 (meter) |
 | univ      | 0.2308891266584396 (meter)    | 0.4013743400573733 (meter) |
 | zara1     | 0.1692499667406082 (meter)    | 0.2857049405574795 (meter) |
