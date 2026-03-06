@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-03-28 09:14:00
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2026-02-06 14:55:17
+ * @LastEditTime: 2026-03-06 15:54:27
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -22,7 +22,7 @@ You can download all these weights by clicking the green button `<> Code` above 
 
 ## Usages
 
-Clone the `Encore` ([https://github.com/cocoon2wong/Enc](https://github.com/cocoon2wong/Enc)) repo and initialize it, then unzip downloaded weights files into any positions.
+Clone the `Encore` ([https://github.com/cocoon2wong/Encore](https://github.com/cocoon2wong/Encore)) repo and initialize it, then unzip downloaded weights files into any positions.
 You can test one model (`enczara1` as an example) like
 
 ```bash
