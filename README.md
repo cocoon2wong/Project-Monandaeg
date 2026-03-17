@@ -2,7 +2,7 @@
  * @Author: Conghao Wong
  * @Date: 2023-03-28 09:14:00
  * @LastEditors: Conghao Wong
- * @LastEditTime: 2026-03-06 15:54:27
+ * @LastEditTime: 2026-03-17 16:20:13
  * @Description: file content
  * @Github: https://cocoon2wong.github.io
  * Copyright 2023 Conghao Wong, All Rights Reserved.
@@ -10,15 +10,12 @@
 
 # Encore Weights
 
-This weights branch (https://github.com/cocoon2wong/Project-Monandaeg/tree/Enc) includes our pre-trained `Encore` models' weights.
-You can download all these weights by clicking the green button `<> Code` above in the [repo page](https://github.com/cocoon2wong/Project-Monandaeg/tree/Enc), and choose [`Download Zip`](https://github.com/cocoon2wong/Project-Monandaeg/archive/refs/heads/Enc.zip), or just clicking the following button:
+This weights branch (https://github.com/cocoon2wong/Project-Monandaeg/tree/Enc_ablation) includes our pre-trained `Encore` models' weights and ablation weights.
+You can download all these weights by clicking the green button `<> Code` above in the [repo page](https://github.com/cocoon2wong/Project-Monandaeg/tree/Enc_ablation), and choose [`Download Zip`](https://github.com/cocoon2wong/Project-Monandaeg/archive/refs/heads/Enc_ablation.zip), or just clicking the following button:
 
 <div class="btn-normal-group" style="text-align: center;">
-    <a class="btn btn-lg btn-normal" href="https://github.com/cocoon2wong/Project-Monandaeg/archive/refs/heads/Enc.zip">⬇️ Download Weights</a>
+    <a class="btn btn-lg btn-normal" href="https://github.com/cocoon2wong/Project-Monandaeg/archive/refs/heads/Enc_ablation.zip">⬇️ Download Weights (Ablations included)</a>
 </div>
-
-<!-- > [!NOTE]
-> Due to file size limitations, weights of ablation variations are published in the [Rev_ablation](https://github.com/cocoon2wong/Project-Monandaeg/tree/Rev_ablation) branch. -->
 
 ## Usages
 
@@ -78,3 +75,27 @@ python playground/main.py -l ${PATH_TO_WEIGHTS}/enczara1
 ```
 
 Then click the `Run` button to visualize your specific model's outputs (for the specific ego agent, which can be changed by clicking the `Random` button).
+
+## Ablation Settings
+
+The naming and numbering of the ablation weights follow the same order as reported in our manuscript.
+These settings include:
+
+| ID | Mod. | $K_I$ | $t_a$ | $t_b$ | Final Predictor |
+|:---|:---:|:---:|:---:|:---:|:---|
+| a1 | None | - | - | - | Transformer |
+| a2 | Linear | - | 4 | 4 | Transformer |
+| a3 | $j \leftarrow j$ | 1 | 4 | 4 | Transformer |
+| a4 | $j \leftarrow i$ | 1 | 4 | 4 | Transformer |
+| a5 | $j \leftarrow i$ | 3 | 4 | 4 | Transformer |
+| a6 | None | - | - | - | Reverberation |
+| a7 | Linear | - | 4 | 4 | Reverberation |
+| a8 | $j \leftarrow i$ | 1 | 4 | 4 | Reverberation |
+| a9 | $j \leftarrow i$ | 5 | 4 | 4 | Reverberation |
+| a10 | $j \leftarrow i$ | 10 | 4 | 4 | Reverberation |
+| a11 | $j \leftarrow i$ | 3 | 6 | 2 | Reverberation |
+| a12 | $j \leftarrow i$ | 3 | 2 | 6 | Reverberation |
+| a13 | $j \leftarrow j$ | 3 | 4 | 4 | Reverberation |
+| full | $j \leftarrow i$ | 3 | 4 | 4 | Reverberation |
+
+Note that `Mod.` denotes in which way the ego predictor forecasts trajectories, where `None` indicates the ego predictor is disabled, and `Linear` indicates the linear-least-squares ego predictor. $j \leftarrow j$ denotes no ego-bias is considered, while $j \leftarrow i$ otherwise.
