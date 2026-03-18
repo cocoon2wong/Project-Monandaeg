@@ -8,7 +8,7 @@
 "feature_dim":128,
 "input_pred_steps":"null",
 "interval":0.4,
-"log_dir":"./logs/20260316-151513_a5_min_full_minienczara2",
+"log_dir":"./logs/20260317-205823_a5_min_full_minienczara2",
 "loss_weights":"{}",
 "lr":0.0001,
 "max_agents":50,
