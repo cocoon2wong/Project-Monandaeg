@@ -17,8 +17,8 @@ You can download all these weights by clicking the green button `<> Code` above 
     <a class="btn btn-lg btn-normal" href="https://github.com/cocoon2wong/Project-Monandaeg/archive/refs/heads/Enc.zip">⬇️ Download Weights</a>
 </div>
 
-<!-- > [!NOTE]
-> Due to file size limitations, weights of ablation variations are published in the [Rev_ablation](https://github.com/cocoon2wong/Project-Monandaeg/tree/Rev_ablation) branch. -->
+> [!NOTE]
+> Due to file size limitations, weights of ablation variations are published in the [Enc_ablation](https://github.com/cocoon2wong/Project-Monandaeg/tree/Enc_ablation) branch.
 
 ## Usages
 
